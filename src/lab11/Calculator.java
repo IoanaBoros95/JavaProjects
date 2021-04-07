@@ -1,57 +1,8 @@
-package lab10;
+package lab11;
 
-import java.sql.SQLOutput;
-
-public class Main {
-
-    public static void main(String[] args) {
-        //1
-        printMyName();
-        System.out.println("Suma celor doua numere este:" +suma(1,2));
-        System.out.println("Rezultatul impartirii celor doua numere este:" +impartire(10,2));
-        System.out.println("Rezultatul operatiei este:" +rez1(5,8,6));
-        System.out.println("Rezultatul operatiei este:" +rez2(55,9,9));
-        System.out.println("Rezultatul operatiei este:" +rez3(20,-3,5,8f));
-        System.out.println("Rezultatul operatiei este:" +rez4(5,15,3,2,8,3));
-
-
-        //2
-        System.out.println("Rezultatul adunarii este: " + sum(2,3));
-        System.out.println("Rezultatul scaderii este: " + decreased(5,1));
-        System.out.println("Rezultatul imultirii este: " + multiplication(5,2));
-        System.out.println("Rezultatul impartirii este: " + division(5,2));
-
-        //3
-        printModel1();
-
-        //4
-        System.out.println("Restul impartirii este: " + rest(19,2));
-
-        //5
-        printModel2();
-
-        //6
-        System.out.println("Media numerelor este: " + aritmetic(2,6,8));
-
-        //7
-        System.out.println("Temperatura in grade Celsius este: " + toCelsius(77.5));
-
-        //8
-        System.out.println("Distanta in metri este: " + distance(40));
-
-        //9
-        speed();
-    }
-
-
+public class Calculator {
 
     //1. Pentru exercitiile din clasa main() de data trecuta, creati metode separate pentru fiecare, tot in clasa Main.java, si apoi apelati-le in metoda main().
-
-    public static void printMyName(){
-
-        System.out.println("Hello \nIoana");
-
-    }
 
     public static int suma(int x, int y) {
         int suma = x+y;
@@ -115,14 +66,6 @@ public class Main {
 
     }
 
-    //3. Scrieti o metoda java, care sa afiseze urmatorul model:
-    public static void printModel1() {
-        System.out.println("   J    a   v     v  a ");
-        System.out.println("   J   a a   v   v  a a");
-        System.out.println("J  J  aaaaa   V V  aaaaa");
-        System.out.println(" JJ  a     a   V  a     a");
-    }
-
     //4.Scrieti o metoda java, care sa primeasca 3 parametrii de tip numar, si sa returneze media numerelor.
 
     public static float aritmetic(float first, float second, float third){
@@ -131,15 +74,6 @@ public class Main {
 
         return aritmetic;
 
-    }
-
-    //5.Scrieti o metoda java, care sa afiseze urmatorul model:
-    public static void printModel2() {
-        System.out.println(" +\"\"\"\"\"+ ");
-        System.out.println("[| o o |]");
-        System.out.println(" |  ^  | ");
-        System.out.println(" | '-' | ");
-        System.out.println(" +-----+ ");
     }
 
     //6.Scrieti o metoda java, care sa returneze restul impartirii a doua numere.
