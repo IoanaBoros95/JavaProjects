@@ -2,13 +2,13 @@ package lab10.AnimalRescue;
 
 public class Dog {
 
-    private String name;
-    private int age;
-    private int levelOfHealth;
-    private int levelOfFeelingHungry;
-    private int levelOfMood;
-    private String favoriteFoodName;
-    private String favoriteRecreationActivity;
+    String name;
+    int age;
+    int levelOfHealth;
+    int levelOfFeelingHungry;
+    int levelOfMood;
+    String favoriteFoodName;
+    String favoriteRecreationActivity;
 
     public String getName(){
         return name;
