@@ -97,8 +97,6 @@ public class Read {
     //4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura. Metoda nu v-a primii parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
     // (Hint: a se citi de la tastatura atata timp cat valoarea primita e numar, cand nu mai e numar, sa se intrerupa citirea)
     public List<Integer> getList(){
-        //Executa bucla pana cand se introduce o valoare gresita, care nu e numar,atunci codul intra in catch unde avem un break
-        //care ne scoate din while.
         List<Integer> list = new ArrayList<>();
         while(true){
             try{
